@@ -1,0 +1,35 @@
+[github]
+  user = prolixalias
+[core]
+	editor = vim
+	autocrlf = false
+	safecrlf = true
+	filemode = false
+	excludesfile = /Users/ptalbot/.gitignore_global
+[user]
+	name = Paul Talbot
+  email = prolixalias@gmail.com
+  signingkey = 0867858FD74E816C6D9F93361EFBA05011C1964F
+[gpg]
+  program = /usr/local/MacGPG2/bin/gpg2
+[alias]
+  co = checkout
+  ci = commit
+  st = status
+  br = branch
+  hist = log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short
+  type = cat-file -t
+  dump = cat-file -p
+  lc =  log --pretty=format:'%h %ad| %s%d [%an]' --graph --date=short --max-count=1
+[push]
+	default = simple
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
+[merge]
+  ff = only
+[credential]
+  helper = osxkeychain

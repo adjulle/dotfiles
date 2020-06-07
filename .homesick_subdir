@@ -1,0 +1,12 @@
+.weechat
+.config/awesome
+.i3
+.config/powerline
+.config/powerline/themes/tmux
+.rbenv
+.oh-my.zsh
+.vim
+.vim/bundle
+.vim/colors
+.config/i3status
+.local/bin
