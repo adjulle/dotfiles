@@ -1,14 +1,14 @@
 [github]
-  user = prolixalias
+  user = adjulle
 [core]
 	editor = vim
 	autocrlf = false
 	safecrlf = true
 	filemode = false
-	excludesfile = /Users/ptalbot/.gitignore_global
+	excludesfile = /Users/adjulle/.gitignore_global
 [user]
 	name = Paul Talbot
-  email = prolixalias@gmail.com
+  email = adjulle@umich.edu
   signingkey = 0867858FD74E816C6D9F93361EFBA05011C1964F
 [gpg]
   program = /usr/local/MacGPG2/bin/gpg2
